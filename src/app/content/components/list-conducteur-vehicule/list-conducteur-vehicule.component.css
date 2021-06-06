@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    height: auto;
+}
+.table{
+    text-align: center;
+    border-collapse: collapse;
+    border: 3px solid black;
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+}
+  th{
+      background-color: black;
+      color: cornsilk;
+  }
+  th, td{
+      width: auto;
+    border: 1px solid black;
+    padding: 10px;
+  }
