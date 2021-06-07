@@ -1,0 +1,5 @@
+export class Vehicule {
+    id!:number;
+    marque!:string;
+    model!:string
+}

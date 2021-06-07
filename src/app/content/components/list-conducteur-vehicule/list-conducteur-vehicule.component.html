@@ -24,10 +24,10 @@
             </tr>
           </thead>
           <tbody>
-              <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+            <tr *ngFor="let vehicule of vehicules">
+              <th scope="row">{{ vehicule.id }}</th>
+              <td>{{ vehicule.marque }}</td>
+              <td>{{ vehicule.model }}</td>
               </tr>
           </tbody>
         </table>
